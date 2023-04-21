@@ -6,7 +6,6 @@ import openai
 import discord
 from dotenv import load_dotenv
 from app.chatgpt_ai.openai import chatgpt_response, chatgpt_summarize
-from llama_index import GPTListIndex, DiscordReader
 
 load_dotenv()
 openai.api_key = os.getenv('OPEN_AI_KEY')
